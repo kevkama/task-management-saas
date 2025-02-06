@@ -1,9 +1,9 @@
 # 📝 Task Management SaaS
 
-[![CI/CD](https://github.com/yourusername/task-management-saas/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourusername/task-management-saas/actions)
+[![CI/CD](https://github.com/kevekama/task-management-saas/actions/workflows/deploy.yml/badge.svg)](https://github.com/kevkama/task-management-saas/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Contributors](https://img.shields.io/github/contributors/yourusername/task-management-saas.svg)](https://github.com/yourusername/task-management-saas/graphs/contributors)
-[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-green.svg)](https://yourusername.github.io/task-management-saas/)
+[![Contributors](https://img.shields.io/github/contributors/kevkama/task-management-saas.svg)](https://github.com/kevkama/task-management-saas/graphs/contributors)
+[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-green.svg)](https://kevkama.github.io/task-management-saas/)
 
 ## 🚀 Overview
 
