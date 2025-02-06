@@ -13,3 +13,5 @@ export const signInWithGoogle = async () => {
     throw error;
   }
 };
+export { auth };
+
