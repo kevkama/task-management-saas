@@ -1,0 +1,16 @@
+{
+  "name": "task-management-saas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kevkama/task-management-saas.git",
+  "author": "<kamaukn21@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.13.1"
+  }
+}

@@ -1,31 +1,20 @@
-import { createRouter, createWebHistory } from "vue-router";
-import Home from "../pages/HomePage.vue";
-import Dashboard from "../pages/Dashboard.vue";
-import Login from "../pages/Login.vue"; // Import the Login page
-import { auth } from "../firebaseConfig"; // Import Firebase auth
+// filepath: /frontend/task-management-saas/src/router/index.ts
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import LoginView from '../views/LoginView.vue';
+import RegisterView from '../views/RegisterView.vue';
+import DashboardView from '../views/DashboardView.vue';
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/login", component: Login }, // Add this route
-  {
-    path: "/dashboard",
-    component: Dashboard,
-    meta: { requiresAuth: true }, // Protect this route
-  },
+  { path: '/', name: 'Home', component: HomeView },
+  { path: '/login', name: 'Login', component: LoginView },
+  { path: '/register', name: 'Register', component: RegisterView },
+  { path: '/dashboard', name: 'Dashboard', component: DashboardView }
 ];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes,
-});
-
-// Navigation guard to check authentication
-router.beforeEach((to, from, next) => {
-  if (to.meta.requiresAuth && !auth.currentUser) {
-    next("/login"); // Redirect to login if not authenticated
-  } else {
-    next();
-  }
+  routes
 });
 
 export default router;

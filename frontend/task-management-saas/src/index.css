@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8;
+}
+
+input, textarea {
+  transition: all 0.3s ease;
+}
+
+button {
+  transition: all 0.3s ease;
+}
